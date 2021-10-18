@@ -329,7 +329,8 @@ namespace Nop.Web.Framework.Controllers
                 draw = model.Draw,
                 recordsTotal = model.RecordsTotal,
                 recordsFiltered = model.RecordsFiltered,
-                model.Data
+                model.Data,
+                Model = model
             });
         }
 
